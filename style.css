@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    background-color: #292929;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo-citi {
+    margin-top: 39px;
+}
+
+#ret1 {
+    box-sizing: border-box;
+
+    width: 940px;
+    height: 437px;
+
+    background: #E5E5E5;
+    border: 3px solid #51E678;
+    border-radius: 8px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 247px;
+}
+
+#ret2 {
+    width: 412px;
+    height: 64px;
+    background: #51E678;
+    box-shadow: 0px 2px 16px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#trocador {
+    width: 351px;
+    height: 43px;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 50px;
+
+    color: rgba(41, 41, 41, 0.8);
+}
+
+#cor {
+
+    width: 689px;
+    height: 66px;
+
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 77px;
+    text-align: center;
+
+    color: #292929;
+}
+
+#bot {
+    width: 96px;
+    height: 32px;
+
+
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+
+    color: #292929;
+}
